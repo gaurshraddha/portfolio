@@ -147,14 +147,7 @@ p a{
 	height: 100vh;
 	background: #1b3b59;
 	background: rgba(70,161,240,1);
-background: -moz-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(70,161,240,1)), color-stop(50%, rgba(18,56,94,1)), color-stop(100%, rgba(2,10,18,1)));
-background: -webkit-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
-background: linear-gradient(135deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46a1f0', endColorstr='#020a12', GradientType=1 );
-    background: url("../images/Book.jpg");
+        background: url("../images/Book.jpg");
 }
 #contact .container{
 	color: #ffffff;
@@ -169,7 +162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46a1f0', end
 	font-size: 4rem;
 }
 #contact .row{
-	padding-top: 10vh;
+	padding-top: 5vh;
 	margin-top: 10vh;
 	width: 100%;
 	/*height: 8vh;*/
