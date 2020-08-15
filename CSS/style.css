@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	position: ;
+}
+
+/*styling of header and elements inside it*/
+
+header {
+	/*width: 100%;*/
+	padding: 0;
+	margin: 0;
+	background-color: #111111;
+	text-align: center;
+    overflow: hidden;
+}
+nav {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    background-color: #8b0606
+}
+#navbar-nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	/*border-top: 8vh solid #111111;
+	border-bottom: 2vh solid #111111;*/
+	text-align: center;
+}
+ul li{
+	display: inline-block;
+	text-align: center;
+	width: 5rem;
+	font-size: 120%;
+}
+li a{
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	transition-duration: .4s;
+}
+li a:hover{
+	color: #000000;
+}
+.navbar-toggler-icon{
+    color-interpolation-filters: auto!important;
+    color:black;
+}
+.navbar-toggler{
+    color: black!important;
+}
+
+
+/*styling main and elements inside it*/
+
+/*styling home id*/
+main{
+	padding: 0;
+	margin: 0;
+}
+main #home{
+	background: url("../images/Nritya.jpg");
+	background-image: 100%;
+	background-color: #111111;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	/*line-height: 100vh;*/
+}
+#home .container{
+	padding-top: 40vh;
+	/*padding-left: 30vw;*/
+}
+#home > div > h1{
+	margin: 0;
+	/*padding-top: 30vh;*/
+	/*font-family: 'Metal Mania', cursive;*/
+	font-weight: bolder;
+	color: #fafafa;
+	font-size:2rem;
+	letter-spacing: 0.3em;
+}
+#enthusiast{
+	/*font-family: 'Calligraffitti', cursive;*/
+	font-family: 'Courgette', cursive;
+	font-size: 3rem;
+	letter-spacing: 0.1em;
+	color: #cc1122;
+}
+
+
+/*styling about id*/
+
+
+main #about{
+	background: url("../images/bg.jpg");
+	
+	/*width: 100%;*/
+	height: 130vh;
+	justify-content: center;
+}
+main #about .container{
+	background-color: rgb(120,120,120,0.5);
+	color: #cdcdd6;
+}
+/*#about .container{
+	padding-top: 30vh;
+}*/
+/*#about h1{
+	margin-top: 0;
+	text-align: center;
+	height: 50vh;
+	line-height: 50vh;
+}*/
+#about p{
+	margin-top: 0;
+	/*margin-right: 8vw;*/
+	/*margin-left: 1vw;*/
+	display: inline-block;
+	width: 40vw;
+	font-size: 1.2rem;
+}
+p a{
+	text-decoration: none;
+	color: #221188;
+	font-style: italic;
+}
+
+
+
+/*styling contact id*/
+
+#contact{
+	width: 100%;
+	height: 100vh;
+	background: #1b3b59;
+	background: rgba(70,161,240,1);
+background: -moz-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(70,161,240,1)), color-stop(50%, rgba(18,56,94,1)), color-stop(100%, rgba(2,10,18,1)));
+background: -webkit-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
+background: linear-gradient(135deg, rgba(70,161,240,1) 0%, rgba(18,56,94,1) 50%, rgba(2,10,18,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46a1f0', endColorstr='#020a12', GradientType=1 );
+    background: url("../images/Book.jpg");
+}
+#contact .container{
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20vh;
+    /*height: 20vh;*/
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.row-content > p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 4rem;
+}
+#contact .row{
+	padding-top: 10vh;
+	margin-top: 10vh;
+	width: 100%;
+	/*height: 8vh;*/
+	/*line-height: 4vh;*/
+	text-align: center;
+}
+#contact a{
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	/*width: 15vw;*/
+	transition-property: color, background-color, border-radius;
+	transition-duration: 0.3s
+}
+#contact a:hover{
+	color: #333333;
+}
+#contact a i{
+	margin: 1vw;
+}
+
+
+/*styling footer*/
+
+footer{
+	background-color: #000000;
+	height: 10vh;
+	line-height: 10vh;
+	text-align: center;
+	color: #ffffff;
+}
+span {
+    content: "\00A9";
+}
+
+ .vertical-center {
+	min-height: 60%;
+	min-height: 60vh;
+
+	display: flex;
+	align-items: center;
+	
+}
+@media only screen and (max-width: 600px;) 
+{
+	.col-md-8  {
+		min-height: 20%;
+		min-height: 20vh;
+		display: none;
+		background-color: #cc1122;
+		align-items: none;
+		
+		
+				
+}
+/*styling ended*/
+
